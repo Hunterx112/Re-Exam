@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #120A4E; // Dark purple background color
+    color: #fff;
+}
+
+header {
+    background-color: #2E6B20; // Green bar color
+    padding: 10px 0;
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        color: #0CC8FE; // Bright blue text
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .menu-icon {
+        display: none; // Will be used for responsive design
+    }
+}
+
+main {
+    .contact-section {
+        padding: 50px 10%;
+        text-align: center;
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        .form-and-images {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            .contact-form {
+                width: 45%;
+                background-color: #27055A; // Form background
+                padding: 20px;
+                border-radius: 10px;
+
+                input, textarea {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    border: none;
+                    border-radius: 5px;
+                }
+
+                button {
+                    width: 100%;
+                    padding: 10px;
+                    background-color: #FFC300; // Yellow button
+                    color: #000;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 1.2em;
+                    cursor: pointer;
+                }
+            }
+
+            .contact-images {
+                width: 45%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

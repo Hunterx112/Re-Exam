@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #120A4E;
+  color: #fff;
+}
+
+header {
+  background-color: #2E6B20;
+  padding: 10px 0;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  margin: 0 20px;
+}
+header nav ul li a {
+  color: #0CC8FE;
+  text-decoration: none;
+  font-weight: bold;
+}
+header .menu-icon {
+  display: none;
+}
+
+main .branding-options {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+main .branding-options .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+main .branding-options .text-section {
+  width: 50%;
+  padding-right: 20px;
+  overflow-y: auto;
+}
+main .branding-options .text-section h2, main .branding-options .text-section h3 {
+  color: #0CC8FE;
+}
+main .branding-options .text-section p, main .branding-options .text-section ul {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+main .branding-options .text-section ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+main .branding-options .text-section ul li {
+  margin-bottom: 10px;
+}
+main .branding-options .image-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+main .branding-options .image-section img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+}
+main .branding-options .middle-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #0CC8FE;
+}/*# sourceMappingURL=style 3.css.map */

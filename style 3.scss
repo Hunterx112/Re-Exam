@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #120A4E; // Dark purple background color
+    color: #fff;
+}
+
+header {
+    background-color: #2E6B20; // Green bar color
+    padding: 10px 0;
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        color: #0CC8FE; // Bright blue text
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .menu-icon {
+        display: none; // Will be used for responsive design
+    }
+}
+
+main {
+    .branding-options {
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 90%;
+        }
+
+        .text-section {
+            width: 50%;
+            padding-right: 20px;
+            overflow-y: auto; // Makes this section scrollable
+
+            h2, h3 {
+                color: #0CC8FE; // Bright blue for the headings
+            }
+
+            p, ul {
+                margin-bottom: 20px;
+                line-height: 1.6;
+            }
+
+            ul {
+                list-style: disc;
+                margin-left: 20px;
+
+                li {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .image-section {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 20px;
+
+            img {
+                border-radius: 10px;
+                margin-bottom: 20px;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        .middle-line {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            width: 2px;
+            background-color: #0CC8FE; // Bright blue line
+        }
+    }
+}
+
+footer {
+    // Footer styling
+}
